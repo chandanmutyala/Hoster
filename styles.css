@@ -1,0 +1,52 @@
+
+header {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+  }
+  
+ 
+  .company-name {
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+ 
+  .logo img {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px; 
+  
+ 
+  .right-section ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right-section ul li {
+    display: inline-block; 
+    margin-left: 20px; 
+  }
+  
+  .right-section ul li:first-child {
+    margin-left: 0; /* Remove margin for the first link */
+  }
+  
+  .right-section ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .right-section ul li a:hover {
+    color: #666; /* Change color on hover */
+  }
+  
